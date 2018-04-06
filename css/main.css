@@ -1,0 +1,164 @@
+/*Navigation bar styling*/
+.navbar,
+.first-section {
+	background-color: #a7d3dc;
+}
+
+.container a {
+	color: #384649;
+}
+
+li a {
+	border-radius: 5px;
+}
+
+li a:hover {
+	background-color: #384649;
+	color: #a7d3dc;
+	transition: ease-in 0.5s;
+}
+
+.navbar-brand:hover {
+	color: #384649;
+}
+
+/*Begining blue section*/
+
+.fa-ellipsis-h {
+	font-size: 3em;
+	color: #ffffff;
+}
+
+
+/*Green section below navbar*/
+main {
+	background-color: #99d4a8;
+}
+
+button.white-text {
+	background-color: #99d4a8;
+}
+
+button.white-text:hover {
+	border-color: #ffffff;
+	transition: ease-in 0.3s;
+}
+
+
+.all-button {
+	background-color: #ffffff; 
+	color:  #99d4a8;
+}
+
+/*Gray section*/
+.line-break {
+	height: 2px;
+	width: 76%;
+	background-color: #e7e7e7;
+	text-align: center; 
+}
+
+.gray-section {
+	background-color: #f1f1f1;
+}
+
+div.col-8 p {
+	width: 85% 
+}
+
+#green-back-btn {
+	background-color: #99d4a8;
+	color: #f0f0f0;
+}
+
+#blue-back-btn {
+	background-color: #b1d1de;
+	color: #f0f0f0;
+}
+
+/*Pink Section*/
+
+.pink-section {
+	background-color: #deb5c5;
+}
+
+.fa-facebook {
+	color: #2944af;
+}
+
+.fa-twitter {
+	color: #3ea9f1;
+}
+
+.fa-pinterest {
+	color: #ce324d;
+}
+
+/*Blue section*/
+.blue-section {
+	background-color: #b1d1de;
+}
+
+.white-back {
+	background-color: #ffffff;
+}
+
+.white-text {
+	color: #ffffff;
+}
+
+#blue-text-btn {
+	color: #b1d1de;
+}
+
+
+/*footer section w/ inputs and textareas*/
+
+footer {
+	background-color: #3c3c3c;
+}
+
+#footer-line-break {
+	background-color: #000;	
+	height: 1px;
+	width: 76%;
+	text-align: center;
+}
+
+/*Styling to orange text*/
+
+.orange-text {
+	color: #766750;
+}
+
+.small-header {
+	font-size: 13px;
+}
+
+.formal-font {
+	font-family: 'Lora', serif;
+}
+
+
+div h5 {
+	font-size: 13px;
+	font-weight: 700;
+}
+
+div p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+
+}
+
+#profile-text{
+	font-weight: 300;
+	font-style: italic;
+}
+
+
+#footer-icon {
+	font-size: 2em;
+}
+
+

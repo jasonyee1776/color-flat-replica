@@ -29,6 +29,10 @@ li a:hover {
 	color: #ffffff;
 }
 
+#main-text {
+    position: relative;
+    top: 50px;
+}
 
 /*Green section below navbar*/
 main {
@@ -76,6 +80,10 @@ div.col-8 p {
 	color: #f0f0f0;
 }
 
+.webpage {
+	position: relative;
+	bottom: 20px;
+}
 /*Pink Section*/
 
 .pink-section {

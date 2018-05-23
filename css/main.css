@@ -1,10 +1,20 @@
-/*Navigation bar styling*/
+/* Navigation bar styling */
+.nav {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+
+
+
+
 .navbar,
 .first-section {
 	background-color: #a7d3dc;
 }
 
-.container a {
+
+.navbar a {
 	color: #384649;
 }
 
@@ -33,6 +43,9 @@ li a:hover {
     position: relative;
     top: 50px;
 }
+
+
+
 
 /*Green section below navbar*/
 main {
@@ -119,6 +132,11 @@ div.col-8 p {
 	color: #b1d1de;
 }
 
+.blue-head {
+	font-weight: bold;
+}
+
+
 
 /*footer section w/ inputs and textareas*/
 
@@ -169,4 +187,41 @@ div p {
 	font-size: 2em;
 }
 
+/* MEDIA QUERIES */
 
+@media screen and (max-width: 874px) {
+	#first-section-left {
+		bottom: 13px;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.fa-ellipsis-h {
+		display: none;
+	}
+
+	#main-text {
+		font-size: 30px;
+	}
+	#blue-head {
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+}
+@media screen and (max-width: 640px) {
+	.nav:last-child {
+		display: none;
+	}
+	#main-text {
+    	font-size: 26px;
+    	top: 39px;
+	}
+}
+
+@media screen and (max-width: 504px) {
+	#main-text{
+		font-size: 24px;
+		top: 27px;
+	}
+}

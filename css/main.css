@@ -3,10 +3,12 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
+	margin-right: 2%;
 }
 
-
-
+#left-icon {
+	margin-left: 5%;
+}
 
 .navbar,
 .first-section {
@@ -209,7 +211,7 @@ div p {
 	}
 
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 665px) {
 	.nav:last-child {
 		display: none;
 	}

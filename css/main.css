@@ -3,12 +3,12 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
-	margin-right: 2%;
+	margin-right: 4%;
 }
 
 #left-icon {
-	margin-left: 5%;
-}
+	margin-left: 6%;
+    margin-top: 1%;}
 
 .navbar,
 .first-section {
@@ -197,7 +197,7 @@ div p {
 	}
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 705px) {
 	.fa-ellipsis-h {
 		display: none;
 	}
